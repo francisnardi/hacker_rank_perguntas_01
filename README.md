@@ -39,8 +39,6 @@ Pick ONE option
     </li>
 </ol>
 
-
-
 Answer:
 
 The Console.Read() method reads the next character from the standard input stream and returns its ASCII value. In this case, the input "hello" is read character by character.
@@ -93,8 +91,6 @@ Pick ONE option
   <li>The server sends an empty response.</li>
 </ol>
 
-
-
 Answer:
 
 When a client sends a GET request to http://localhost:3000/users, the server code checks if the request method is GET and the URL is "/users". In this case, both conditions are satisfied, so the server responds with a status code of 200 (OK) and sets the "Content-Type" header to "application/json" to indicate that the response will be in JSON format.
@@ -133,8 +129,6 @@ Pick ONE option
   <li>fs.write("demo.txt", JSON.stringify(arr));</li>
 </ol>
 
-
-
 Answer:
 
 fs.writeFileSync("demo.txt", JSON.stringify(arr)); - This command converts the array to a JSON string representation using JSON.stringify(). It then writes the JSON string to the file "demo.txt". This is the correct option as it writes the contents of the array to the file.
@@ -143,7 +137,7 @@ Therefore,
 
 <ul>
     <li>
-        fs.writeFileSync("demo.txt", JSON.stringify(arr));.
+        fs.writeFileSync("demo.txt", JSON.stringify(arr));
     </li>
 </ul>
 
