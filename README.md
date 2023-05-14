@@ -143,7 +143,7 @@ Therefore,
 
 <ul>
     <li>
-        To open a file (or create it if it doesn't exist) and write the contents of the array to the file, the correct command is fs.writeFileSync("demo.txt", JSON.stringify(arr));.
+        fs.writeFileSync("demo.txt", JSON.stringify(arr));.
     </li>
 </ul>
 
