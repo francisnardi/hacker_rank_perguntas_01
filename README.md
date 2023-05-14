@@ -1,4 +1,4 @@
-### 1. Consider the following code snippet:
+1. Consider the following code snippet:
 
 ```csharp
 using System;
@@ -62,7 +62,7 @@ Therefore, the output of the code will be:
 
 <hr>
 
-### 2. What happens when a client sends a GET request to http://localhost:3000/users?
+2. What happens when a client sends a GET request to http://localhost:3000/users?
 
 ```javascript
 const http = require("http");
@@ -118,7 +118,7 @@ Therefore,
 
 <hr>
 
-### 3. Given an array, which of the following commands opens the file "demo.txt" (or creates it if the file does not exist) and writes the contents of the array to the file?  
+3. Given an array, which of the following commands opens the file "demo.txt" (or creates it if the file does not exist) and writes the contents of the array to the file?  
 
 ```javascript
 const arr = ["apple", "mango", "banana"];
