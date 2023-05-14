@@ -39,7 +39,7 @@ Pick ONE option
     </li>
 </ol>
 
-<hr style="border:1px dashed;">
+
 
 Answer:
 
@@ -93,7 +93,7 @@ Pick ONE option
   <li>The server sends an empty response.</li>
 </ol>
 
-<hr style="border:1px dashed;">
+
 
 Answer:
 
@@ -133,7 +133,7 @@ Pick ONE option
   <li>fs.write("demo.txt", JSON.stringify(arr));</li>
 </ol>
 
-<hr style="border:1px dashed;">
+
 
 Answer:
 
