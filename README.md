@@ -135,11 +135,29 @@ fs.writeFileSync("demo.txt", JSON.stringify(arr)); - This command converts the a
 
 Therefore, 
 
-<ul>
-    <li>
-        fs.writeFileSync("demo.txt", JSON.stringify(arr));
-    </li>
-</ul>
+```javascript
+fs.writeFileSync("demo.txt", JSON.stringify(arr));
+```
 
 <hr>
 
+4. Select the expression(s) that cause a MySQL error.
+
+Pick ONE OR MORE options
+
+<ol>
+  <li>SELECT customer_id, COUNT( * ) FROM transactions GROUP BY customer_id HAVING COUNT( * ) > 10</li>
+  <li>SELECT customer_id, COUNT( * ) AS transactions FROM transactions GROUP BY customer_id HAVING transactions > 10</li>
+  <li>SELECT customer_id, COUNT( * ) AS transactions FROM transactions WHERE transactions > 10 GROUP BY customer_id</li>
+  <li>SELECT customer_id, COUNT( * ) AS transactions FROM transactions GROUP BY 1 HAVING transactions > 10</li>
+</ol>
+
+Answer:
+
+The column alias "transactions" is referenced in the HAVING clause as HAVING transactions > 10. This will result in a MySQL error because the column alias cannot be directly used in the HAVING clause.
+
+Therefore,
+
+```sql
+SELECT customer_id, COUNT( * ) FROM transactions GROUP BY customer_id HAVING COUNT( * ) > 10
+```
