@@ -115,3 +115,37 @@ Therefore,
         The server responds with a JSON array that contains user data.
     </li>
 </ul>
+
+<hr>
+
+### 3. Given an array, which of the following commands opens the file "demo.txt" (or creates it if the file does not exist) and writes the contents of the array to the file?  
+
+```javascript
+const arr = ["apple", "mango", "banana"];
+```
+
+Pick ONE option
+
+<ol>
+  <li>fs.writeFileSync("demo.txt", arr);</li>
+  <li>fs.writeFileSync("demo.txt", JSON.stringify(arr));</li>
+  <li>fs.writeFile("demo.txt", arr, (err) => {console.log(err);});</li>
+  <li>fs.write("demo.txt", JSON.stringify(arr));</li>
+</ol>
+
+<hr style="border:1px dashed;">
+
+Answer:
+
+fs.writeFileSync("demo.txt", JSON.stringify(arr)); - This command converts the array to a JSON string representation using JSON.stringify(). It then writes the JSON string to the file "demo.txt". This is the correct option as it writes the contents of the array to the file.
+
+Therefore, 
+
+<ul>
+    <li>
+        To open a file (or create it if it doesn't exist) and write the contents of the array to the file, the correct command is fs.writeFileSync("demo.txt", JSON.stringify(arr));.
+    </li>
+</ul>
+
+<hr>
+
