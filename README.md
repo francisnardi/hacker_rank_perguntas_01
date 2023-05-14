@@ -1,4 +1,4 @@
-1. Consider the following code snippet:
+### 1. Consider the following code snippet:
 
 ```csharp
 using System;
@@ -38,7 +38,9 @@ Pick ONE option
         Compilation Error<br>
     </li>
 </ol>
-<hr>
+
+<hr style="border:1px dashed;">
+
 Answer:
 
 The Console.Read() method reads the next character from the standard input stream and returns its ASCII value. In this case, the input "hello" is read character by character.
@@ -51,14 +53,16 @@ Console.WriteLine(Console.ReadLine()) reads the remaining characters of the inpu
 
 Therefore, the output of the code will be:
 
-3. 
-    104<br>
-    llo
+<ul>
+    <li>
+        104<br>
+        llo
+    </li>
+</ul>
 
 <hr>
-<hr>
 
-2. What happens when a client sends a GET request to http://localhost:3000/users?
+### 2. What happens when a client sends a GET request to http://localhost:3000/users?
 
 ```javascript
 const http = require("http");
@@ -89,6 +93,25 @@ Pick ONE option
   <li>The server sends an empty response.</li>
 </ol>
 
-<hr>
+<hr style="border:1px dashed;">
 
 Answer:
+
+When a client sends a GET request to http://localhost:3000/users, the server code checks if the request method is GET and the URL is "/users". In this case, both conditions are satisfied, so the server responds with a status code of 200 (OK) and sets the "Content-Type" header to "application/json" to indicate that the response will be in JSON format.
+
+The server then sends a JSON array containing user data as the response body:
+
+```javascript
+[
+  { name: "Alice", age: 25 },
+  { name: "Bob", age: 30 }
+]
+```
+
+Therefore,
+
+<ul>
+    <li>
+        The server responds with a JSON array that contains user data.
+    </li>
+</ul>
